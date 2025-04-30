@@ -1,0 +1,27 @@
+{
+  "name": "bravus-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.10.0",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/react": "19.1.2",
+    "autoprefixer": "^10.4.21",
+    "axe-cli": "latest",
+    "eslint": "latest",
+    "postcss": "latest",
+    "typescript": "5.8.3"
+  }
+}
